@@ -1,0 +1,10 @@
+.parent {
+  background-color: yellow;
+}
+
+.answer {
+  background-color: tomato;
+  aspect-ratio: 1.618;
+  max-width: 50%;
+  max-height: 50%;
+}

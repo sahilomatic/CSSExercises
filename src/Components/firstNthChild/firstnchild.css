@@ -1,0 +1,17 @@
+.row {
+  height: 50px;
+  background-color: #eee;
+  border-bottom: 2px solid red;
+}
+
+.row:nth-child(even) {
+  background-color: #ccc;
+}
+
+.row:first-child {
+  border-top: 1px solid red;
+}
+
+.row::selection {
+  background-color: yellow;
+}

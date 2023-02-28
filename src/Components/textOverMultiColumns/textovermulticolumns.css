@@ -1,0 +1,7 @@
+.multiColumns {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: red;
+}

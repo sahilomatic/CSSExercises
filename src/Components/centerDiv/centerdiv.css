@@ -1,0 +1,53 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.outer {
+  width: 100%;
+  height: 50vh;
+  background-color: lawngreen;
+  /* code below*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.outer1 {
+  width: 100%;
+  height: 50vh;
+  background-color: blue;
+  /* code below*/
+  position: relative;
+}
+
+.inner1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.outer2 {
+  width: 100%;
+  height: 50vh;
+  background-color: lawngreen;
+  /* code below*/
+  display: grid;
+  place-items: center;
+}
+
+.inner2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
